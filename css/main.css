@@ -33,7 +33,9 @@ section {
 
 .wrapper {
   padding: 1.3rem;
+  margin: 0 auto;
   max-width: 45em;
+  overflow: hidden;
 }
 
 .section-letter,
@@ -47,4 +49,53 @@ section {
 
 .section-icon {
   float: right;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter,
+  .section-icon {
+    padding: 0 1em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 23%;
+    padding: 0 1.3em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
